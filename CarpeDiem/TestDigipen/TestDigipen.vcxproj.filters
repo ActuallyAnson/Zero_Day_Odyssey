@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameObject_Player.c">
+      <Filter>Source\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGame.c">
+      <Filter>Source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMainMenu.c">
+      <Filter>Source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSplashScreen.c">
+      <Filter>Source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.c">
+      <Filter>Source\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject_Asteroid.c">
+      <Filter>Source\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject_Bullet.c">
+      <Filter>Source\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManager.c">
+      <Filter>Source\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils_Settings.c">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils_Physics_Collision.c">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils_UIGameScene.c">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils_EaseFunctions.c">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils_WindowManipulation.c">
+      <Filter>Source\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject_ScoreOrb.c">
+      <Filter>Source\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject_Enemy_Hare.c">
+      <Filter>Source\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject_EnemyBullet.c">
+      <Filter>Source\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject_Enemy_Bomber.c">
+      <Filter>Source\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject_Enemy_Bandit.c">
+      <Filter>Source\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject_EnemyBulletTypeS.c">
+      <Filter>Source\GameObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameObject_Player.h">
+      <Filter>Header\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Game.h">
+      <Filter>Header\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_MainMenu.h">
+      <Filter>Header\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_SplashScreen.h">
+      <Filter>Header\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>Header\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject_Asteroid.h">
+      <Filter>Header\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject_Bullet.h">
+      <Filter>Header\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManager.h">
+      <Filter>Header\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils_Physics_Collision.h">
+      <Filter>Header\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils_UIGameScene.h">
+      <Filter>Header\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils_EaseFunctions.h">
+      <Filter>Header\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils_WindowManipulation.h">
+      <Filter>Header\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject_ScoreOrb.h">
+      <Filter>Header\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject_Enemy_Hare.h">
+      <Filter>Header\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject_EnemyBullet.h">
+      <Filter>Header\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils_Settings.h">
+      <Filter>Header\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject_Enemy_Bandit.h">
+      <Filter>Header\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject_Enemy_Bomber.h">
+      <Filter>Header\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject_EnemyBulletTypeS.h">
+      <Filter>Header\GameObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{494ede6d-b031-4ff2-952e-8ed38ee7e07d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{128813ca-bebf-4a90-b93c-7ce819037266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Scenes">
+      <UniqueIdentifier>{b46cfb9e-d3cf-40bc-b771-d84f38ddfabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\GameObjects">
+      <UniqueIdentifier>{2d24ef47-1993-42a0-88e0-62d7d17ab0f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\GameObjects">
+      <UniqueIdentifier>{8ac3501b-5404-420f-8d67-0e26aaa4f8a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scenes">
+      <UniqueIdentifier>{687c04fb-fdde-4aa3-b233-dfaf5feaa51d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{7385c8af-9108-48dd-9cc0-b8513714c59d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Utils">
+      <UniqueIdentifier>{f8338326-5d4c-406e-83cd-15992d1c0684}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
